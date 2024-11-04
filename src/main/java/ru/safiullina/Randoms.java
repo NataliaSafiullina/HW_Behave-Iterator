@@ -36,7 +36,7 @@ public class Randoms implements Iterable<Integer> {
             public Integer next() {
                 // Если у нас нижняя граница меньше или равно верхней, то генерим случайнее числа в этом диапазоне
                 if (minValue <= maxValue) {
-                    return random.nextInt(minValue,maxValue);
+                    return random.nextInt(minValue, maxValue);
                 }
                 return null;
             }
